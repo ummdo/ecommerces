@@ -1,0 +1,40 @@
+.home{
+   background-image: url(../img/still-life-tech-device.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    transform:     translateY(-50%);
+    top: 60%;
+    position: absolute;
+    padding: 7%;
+}
+
+.home .content h3{
+    color: #ff6d6d;
+    font-size: 3rem;
+}
+
+.home .content p{
+    font-size: 25px;
+    color: #444;
+    margin-top: 15px;
+}
+
+.home .content .more-option{
+    background-color: #ff6d6d;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.home .content .submit-buttom:hover{
+    transform: scale(1.7);
+}

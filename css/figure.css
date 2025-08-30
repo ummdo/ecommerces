@@ -1,0 +1,33 @@
+.about-container{
+    background-color: #453c5c;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.about-container .about-us{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-container .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-container .about-h3{
+    color: #d9e2ec;
+    font-size: 2rem;
+}
+
+.about-container .about-p{
+    margin-top: 1rem;
+    color: #d9e2ec;
+    width: 80%;
+    font-size: 1.5rem;
+}
