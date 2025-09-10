@@ -1,0 +1,45 @@
+.ribbon {
+  width: 50%;
+  margin: 6rem auto;
+  padding: 50px;
+  background-color: #f6f6f6;
+  text-align: center;
+  border: 1px solid #a68beb;
+}
+
+.ribbon .title-ribbon {
+  background-color: #453c5c;
+  margin: 0 0 20px;
+  color: #fff;
+  width: calc(100% + 200px);
+  right: -100px;
+  position: relative;
+  font-size: 29px;
+  padding: 15px;
+}
+
+.ribbon .title-ribbon::before {
+  content: "";
+  position: absolute;
+  border-color: #28213b #28213b transparent transparent;
+  border-width: 27px;
+  left: 0;
+  bottom: -50px;
+  border-style: solid;
+}
+
+.ribbon .title-ribbon::after {
+  content: "";
+  position: absolute;
+  border-width: 27px;
+  bottom: -50px;
+  border-style: solid;
+  right: 0;
+  border-color: #28213b transparent transparent #28213b;
+}
+
+.ribbon .ribbon-p {
+  font-size: 24px;
+  line-height: 1.4;
+  color: #222;
+}

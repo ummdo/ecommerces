@@ -1,0 +1,23 @@
+.image-circle {
+  background-image: url(../background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 80vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.image-circle img{
+    width: 17em;
+    height: 17em;
+    border-radius: 50%;
+    margin: 15px;
+    object-fit: cover;
+    border: 5px solid #453c5c;
+}

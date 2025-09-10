@@ -22,6 +22,7 @@ header {
   right: 0;
   position: fixed;
   background-color: #453c5c;
+  z-index: 999;
 }
 
 header .top-header .container {

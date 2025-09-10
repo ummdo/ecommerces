@@ -1,0 +1,41 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features .feature{
+    background-color: #ff6d6d;
+    display: flex;
+    border-radius:20px ;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border: 2px solid #ff6d6d;
+}
+
+.features img{
+    width: 16em;
+    height: 16em;
+    object-fit: cover;
+}
+
+.features .realme{
+    padding: 2rem;
+}
+
+.features .realme i{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.features .realme h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.features .realme p{
+    color: #fff;
+    font-size: 1.2em;
+    width: 80%;
+    line-height: 1.3;
+}
